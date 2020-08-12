@@ -1,6 +1,22 @@
+.bio-text{
+    font-family: 'Lato', sans-serif,;
+    font-size: 64px;
+    font-weight: regular;
+    line-height: 1.25em;
+    font-style: italic;
+}
+
+.p{
+    font-family: 'Lato', sans-serif,;
+    font-size: 16px;
+    font-weight: light;
+    line-height: 1.25em;
+    letter-spacing: 0.04em
+}
+
 .col{
-    padding-right: 2vw;
-    padding-left: 2vw;
+    padding-right: 2.7vw;
+    padding-left: 2.7vw;
 }
 
 .margin{
@@ -57,6 +73,7 @@ form{
 
 .container-fluid{
     width: 85.41666666666666vw;
+    position: relative;
     /* background-color: blue; */ 
 }
 
@@ -75,6 +92,9 @@ form{
 
 .portfolio-title{
     padding-top: 10px;
+    font-family: 'Lato', sans-serif,;
+    font-size: 16px;
+    line-height: 1.25em;
 }
 
 
@@ -95,19 +115,22 @@ a {
 }
 
 .nav{
-    position: fixed;
-    background-color: #ffffff;
+    display: inline;
+    /* background-color: #ffffff; */
     z-index: 1;
-    width: 100vw;
-    padding: 20px;
+    padding: 40px;
 }
+
+.footer-padding{
+    margin-top: 20vh;
+}
+
 
 footer{
     background-color: #ffffff;
     z-index: 1;
     width: 100vw;
-    padding: 20px;
-    color: #00000;
+    padding: 40px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -122,17 +145,32 @@ height: auto;
     float: right;
 }
 
+.logo-img{
+    width: auto;
+    height: 75px;
+}
+
+#logo{
+    z-index: 3;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+  }
+  
+  li {
+    display: inline;
+    padding-left: 30px;
+  }
+
 @media only screen and (max-width: 479px) {
     .img-sm{
         width: 100%;
         height: auto;
     }
 
-    .img-bg{
-        margin-top: 100px;
-        height: 201.46px;
-        width: 100%
-    }
 
     .nav{
         position: fixed;
@@ -142,6 +180,16 @@ height: auto;
         padding: 40px;
     }
 
+    .col{
+        padding-right:0;
+        padding-left:0;
+    }
+    .container-fluid{
+        width: 100vw;
+        padding-left: 30px;
+        padding-right: 30px;
+      
+    }
 
 }
 
@@ -161,6 +209,41 @@ height: auto;
 
     .btn{
         width: 300px;
+    }
+
+    .col{
+        padding-right:0;
+        padding-left:0;
+    }
+    
+    .ft-itm-right{
+        float: none;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    footer{
+        position: absolute;
+        padding: 30px;
+        border-top: 1px solid #dedede;
+        bottom: -260px;
+    }
+
+    .bio-text{
+       font-size: 42px;
+       margin-top: 30px;
+       
+    }
+    
+    .container-fluid{
+        width: 100vw;
+        padding-left: 30px;
+        padding-right: 30px;
+      
+    }
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
 }
