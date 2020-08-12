@@ -1,9 +1,14 @@
 .bio-text{
     font-family: 'Lato', sans-serif,;
-    font-size: 64px;
+    font-size: 46px;
     font-weight: regular;
     line-height: 1.25em;
     font-style: italic;
+}
+
+a:hover{
+    color: #000000;
+    text-decoration: none;
 }
 
 .p{
@@ -81,7 +86,7 @@ form{
 .img-bg{
     width: 100%;
     height: auto;
-    margin-top: 10vh;
+    margin-top: 8vh;
 }
 
 .img-sm{
@@ -150,8 +155,18 @@ height: auto;
     height: 75px;
 }
 
+
 #logo{
     z-index: 3;
+}
+
+.svg{
+    width:30px;
+    height:30px;
+}
+
+.svg:hover{
+    fill:black;
 }
 
 ul {
@@ -160,44 +175,28 @@ ul {
     padding: 40px;
   }
   
+  #li-logo{
+      padding-left:10px
+  }
+
   li {
     display: inline;
     padding-left: 30px;
   }
 
-@media only screen and (max-width: 479px) {
-    .img-sm{
-        width: 100%;
-        height: auto;
-    }
 
-
-    .nav{
-        position: fixed;
-        background-color: #ffffff;
-        z-index: 1;
-        width: 100vw;
-        padding: 40px;
-    }
-
-    .col{
-        padding-right:0;
-        padding-left:0;
-    }
-    .container-fluid{
-        width: 100vw;
-        padding-left: 30px;
-        padding-right: 30px;
-      
-    }
-
-}
 
 @media only screen and (max-width: 766px) {
     .img-sm{
         width: 100%;
         height: auto;
         margin-top: 40px;
+    }
+
+    .img-bg{
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
     }
     .nav{
         position: fixed;
@@ -245,5 +244,60 @@ ul {
         margin-left: 0px;
         margin-right: 0px;
     }
+
+
+
+}
+
+@media only screen and (max-width: 479px) {
+    .img-sm{
+        width: 100%;
+        height: auto;
+    }
+
+    .container-fluid{
+        width: 100vw;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 105px;
+      
+    }
+
+    .svg{
+        width:75px;
+        height:75px;
+        float:right;
+      
+    }
+
+    ul {
+        padding: 30px;
+      }
+
+    li {
+        width: 100%;
+        display: block;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        text-align: left;
+      }
+
+    #li-logo{
+        padding-left:0px;
+    }
+
+    .nav{
+        position: fixed;
+        background-color: #ffffff;
+        z-index: 1;
+        width: 100vw;
+        padding: 40px;
+    }
+
+    .col{
+        padding-right:0;
+        padding-left:0;
+    }
+
 
 }
