@@ -204,7 +204,7 @@ ul {
     padding-left: 30px;
   }
 
-  ,form-group:active{
+  .form-group:active{
       border:none;
   }
 
