@@ -19,6 +19,10 @@ a:hover{
     letter-spacing: 0.04em
 }
 
+.row{
+    margin-bottom: 8vh;
+}
+
 .col{
     padding-right: 2.7vw;
     padding-left: 2.7vw;
@@ -82,20 +86,19 @@ form{
 .container-fluid{
     width: 85.41666666666666vw;
     position: relative;
-    /* background-color: blue; */ 
+    margin-bottom: 20vh;
+    margin-top: 10vh;
 }
 
 
 .img-bg{
     width: 100%;
     height: auto;
-    margin-top: 8vh;
 }
 
 .img-sm{
     width: 100%;
     height: auto;
-    margin-top: 6vh;
 }
 
 .portfolio-title{
@@ -129,9 +132,6 @@ a {
     padding: 40px;
 }
 
-.footer-padding{
-    margin-top: 20vh;
-}
 
 
 footer{
