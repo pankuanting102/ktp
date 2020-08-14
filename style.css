@@ -34,6 +34,8 @@ form{
     margin: auto;
 }
 
+
+
 .btn{
     border-radius: 20px;
     border: 1px solid black;
@@ -73,6 +75,7 @@ form{
     background-color: #fff;
     background-clip: padding-box;
     padding: 10px;
+    margin-top: 10px;
     
 }
 
@@ -259,7 +262,7 @@ ul {
         width: 100vw;
         padding-left: 30px;
         padding-right: 30px;
-        margin-top: 105px;
+        margin-top: 125px;
       
     }
 
@@ -299,5 +302,24 @@ ul {
         padding-left:0;
     }
 
+    footer{
+        position: relative;
+        padding: 30px;
+        border-top: 1px solid #dedede;
+        
+    }
+
+    .bio-text{
+        font-family: 'Lato', sans-serif,;
+        font-size: 36px;
+        font-weight: regular;
+        line-height: 1.25em;
+        font-style: italic;
+        padding-right: 20px;
+    }
+
+    .btn{
+        width: 100%
+    }
 
 }
