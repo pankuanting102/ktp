@@ -1,3 +1,5 @@
+/* Typography */
+
 .bio-text{
     font-family: 'Lato', sans-serif,;
     font-size: 46px;
@@ -6,10 +8,6 @@
     font-style: italic;
 }
 
-a:hover{
-    color: #000000;
-    text-decoration: none;
-}
 
 .p{
     font-family: 'Lato', sans-serif,;
@@ -26,6 +24,15 @@ h1{
     line-height: 1em;
     letter-spacing: 0.04em;
 }
+
+.portfolio-title{
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif,;
+    font-size: 16px;
+    line-height: 1.25em;
+}
+
+/* Grid & Style */
 
 .row{
     margin-bottom: 8vh;
@@ -118,29 +125,24 @@ video::-webkit-media-controls {
     height: auto;
 }
 
-.portfolio-title{
-    padding-top: 10px;
-    font-family: 'Lato', sans-serif,;
-    font-size: 16px;
-    line-height: 1.25em;
-}
-
-
-.box-div-sm{
-    height: 300px;
-    background-color: green;
-}
-
 .arrow-cta{
     height:9px;
     width:16px;
 }
+
+/* Nav & Footer */
 
 a {
     color: #000000;
     text-decoration: none;
     background-color: transparent;
 }
+
+a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
 
 .nav{
     display: inline;
@@ -160,6 +162,23 @@ footer{
     bottom: 0;
     left: 0;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+  }
+  
+  #li-logo{
+      padding-left:10px
+  }
+
+  li {
+    display: inline;
+    padding-left: 30px;
+  }
+
+/* Asset Style */
 
 #abt-img{
 width: 100%;
@@ -188,21 +207,6 @@ height: auto;
 .svg:hover{
     fill:black;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 40px;
-  }
-  
-  #li-logo{
-      padding-left:10px
-  }
-
-  li {
-    display: inline;
-    padding-left: 30px;
-  }
 
   .form-group:active{
       border:none;
