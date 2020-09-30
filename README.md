@@ -11,4 +11,5 @@
 
 <div style="width: 90vw; margin: auto; border: 1px black solid">
 <img src="https://github.com/pankuanting102/kuan-ting-pan-portfolio/blob/master/Assets/Sep-30-2020%2001-15-54.gif?raw=true">
+<img src="https://github.com/pankuanting102/kuan-ting-pan-portfolio/blob/master/Assets/Screen%20Shot%202020-09-30%20at%202.01.13%20PM.png?raw=true">
 </div>
