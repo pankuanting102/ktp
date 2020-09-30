@@ -10,5 +10,5 @@
 <br>Hi I've created detail pages for each portfolio. Simply click into view project and you can either link to git repository or deployed web application page. please note that resume can be found in about me page while linkedin and github are displayed in the sticky footer. Please let me know if you have any thoughts! Thanks for reviewing.
 
 <div style="width: 90vw; margin: auto; border: 1px black solid">
-<img src="">
+<img src="https://github.com/pankuanting102/kuan-ting-pan-portfolio/blob/master/Assets/Sep-30-2020%2001-15-54.gif?raw=true">
 </div>
