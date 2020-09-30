@@ -1,10 +1,14 @@
-# week-2-homework-responsive-portfolio
+# Portfolio Update
 
 <b>git-repository:</b>
-<br>https://github.com/pankuanting102/kuanting-pan-portfolio
+<br>https://github.com/pankuanting102/kuan-ting-pan-portfolio
 
 <b>deployed web app:</b>
-<br>https://pankuanting102.github.io/kuanting-pan-portfolio/.
+<br>https://pankuanting102.github.io/kuan-ting-pan-portfolio/portfolio
 
 <b>Note:</b>
-<br>Hi there, I've created my portfolio by using bootstrap, html and css. I can't remember why Ron asked us to have portfolio section only occupying 2/3 of page so I just make whatever I think would work aesthitcally. I've also shown contact form section occupying 2/3 of div. please note that content are from my worlplace and just placeholders for now. will also update bio in as I have more concrete idea of what i want to convey.
+<br>Hi I've created detail pages for each portfolio. Simply click into view project and you can either link to git repository or deployed web application page. please note that resume can be found in about me page while linkedin and github are displayed in the sticky footer. Please let me know if you have any thoughts! Thanks for reviewing.
+
+<div style="width: 90vw; margin: auto; border: 1px black solid">
+<img src="">
+</div>
