@@ -33,7 +33,7 @@
 
 </nav>
     <div>
-    <form class="container-fluid p">
+    <form method="post" action="https://script.google.com/macros/s/AKfycbznE7mqFUfLuXiTyqTeQ_xDZnZ2bMs3h0ciYcad6g/exec"  class="container-fluid p gform">
  
         <div>
             <div class="form-row">
@@ -42,30 +42,34 @@
             <div class="form-row">
                 <div class="form-group col-md-4 col-sm-12 col-lg-4 col-12">
             
-                  <input type="email" class="form-field " id="inputEmail4" placeholder="First Name">
+                  <input type="text" class="form-field " id="inputEmail4" name="first_name" placeholder="First Name">
                 </div>
                 <div class="form-group col-md-4 col-12 col-lg-4">
                   
-                  <input type="password" class="form-field" id="inputPassword4" placeholder="Last Name">
+                  <input type="text" class="form-field" id="inputPassword4" name="last_name" placeholder="Last Name">
                 </div>
               </div>
     
         <div class="form-row">
             <div class="form-group col-md-4">
         
-              <input type="email" class="form-field" id="inputEmail4" placeholder="Email Address">
+              <input type="email" class="form-field" id="inputEmail4" name="email" placeholder="Email Address">
             </div>
             <div class="form-group col-md-4">
-              <input type="password" class="form-field" id="inputPassword4" placeholder="Company(Optional)">
+              <input type="text" class="form-field" name="company" id="inputPassword4" placeholder="Company(Optional)">
             </div>
           </div>
 
           <div class="form-row">
           <div class="form-group col-md-8">
-            <textarea class="form-comment" id="exampleFormControlTextarea1" rows="3" placeholder="Comment" style="height: 250px"></textarea>
+            <textarea class="form-comment" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Comment" style="height: 250px"></textarea>
           </div>
           </div>
-        <button type="submit" class="btn">Submit</button>
+        <input type="submit" class="btn" Submit >
+
+        <div style="display:none; margin-top: 10px" class="thankyou_message">
+          <p>Thanks for contacting!</p>
+         </div>
       </form>
 
     </div>
@@ -88,7 +92,7 @@
             </a>
         <div style="display:inline" class="p">© 2020 All Right Reserved</div>
     </footer>
-
+    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
 </body>
 
 
