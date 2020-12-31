@@ -1,199 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kuan-Ting Pan Portfolio</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <!-- Customized CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- favicon CSS -->
-    <link rel="icon" type="image/png" href="Assets/nav_icon_white.png">
-</head>
+    <link rel="icon" type="image/png" href="Assets/nav_icon_white.png" />
 
-<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
     <nav>
-
-        <ul class="p">
-            <a href="/kuan-ting-pan-portfolio/portfolio"><img src="Assets/nav_logo.svg" class="svg"
-                    alt="hello, there"></a>
-            <li class="li-logo">Hello, There</li>
-            <li style="float:right"><a href="/kuan-ting-pan-portfolio/contact">Contact</a></li>
-            <li style="float:right"><a href="/kuan-ting-pan-portfolio/index">About</a></li>
-            <li style="float:right"><a href="/kuan-ting-pan-portfolio/portfolio">Portfolio</a></li>
-        </ul>
-
-
+      <ul class="p">
+        <a href="/kuan-ting-pan-portfolio/portfolio"
+          ><img
+            src="Assets/nav_logo.svg"
+            class="svg rotating"
+            alt="hello, there"
+        /></a>
+        <li class="li-logo">Hello, There</li>
+        <li style="float: right">
+          <a href="/kuan-ting-pan-portfolio/contact">Contact</a>
+        </li>
+        <li style="float: right">
+          <a href="/kuan-ting-pan-portfolio/index">About</a>
+        </li>
+        <li style="float: right">
+          <a href="/kuan-ting-pan-portfolio/portfolio">Portfolio</a>
+        </li>
+      </ul>
     </nav>
+
+    <div class="filter-group">
+      <div id="all-filter" class="btn" style="margin: 10px">All</div>
+      <div id="design-filter" class="btn" style="margin: 10px">Design</div>
+      <div id="dev-filter" class="btn" style="margin: 10px">Dev</div>
+    </div>
 
     <!-- Top Module -->
 
-
-
-
-
-
-
-
-    <div class="container-fluid p">
-
-
-        <div class="row">
-            <div class="col col-lg-12 pl-0 pr-0">
-                <video controls loop muted autoplay class="img-bg">
-                    <source src="Assets/study_app.mp4" type="video/mp4">
-                </video>
-                <img src="Assets/index-portfolio-influencer@2x.jpg" class="img-bg-touch-devices">
-                <div class="dev-badge">Dev</div>
-                <div class="portfolio-title">eMeet</div>
-                <btn class="portfolio-cta"><a href="/kuan-ting-pan-portfolio/project-eMeet">View Project
-                        <img src="Assets/arrow@2x.png" class="arrow-cta"></a>
-                </btn>
-            </div>
+    <div class="container-fluid">
+      <div class="row design">
+        <a href="/kuan-ting-pan-portfolio/project-lp">
+          <div class="col col-lg-12 pl-0 pr-0" >
+              <div class="video-wrapper">
+            <video id="video" controls loop muted autoplay class="img-bg" style="width: 102%">
+              <source src="Assets/design/d01/lp-ld.mp4" type="video/mp4" />
+            </video>
+        </div>
+            <img
+              src="Assets/h-1.png"
+              class="img-bg-touch-devices"
+            />
+            <div class="design-badge">DESIGN</div>
+            <div class="portfolio-title">Lapointe</div>
+            <btn class="portfolio-cta"
+              >View Project
+              <img src="Assets/arrow@2x.png" class="arrow-cta" />
+            </btn>
+          </div>
+        </a>
+      </div>
+      <div class="row design">
+        <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pl-0">
+          <a href="/kuan-ting-pan-portfolio/project-afb">
+            <img src="Assets/portfolio-2.png" class="img-sm" />
+            <div class="design-badge">DESIGN</div>
+            <div class="portfolio-title">Audible for Business</div>
+            <btn class="portfolio-cta"
+              >View Project
+              <img src="Assets/arrow@2x.png" class="arrow-cta" />
+            </btn>
+          </a>
         </div>
 
-        <div class="row">
-            <div class="col col-lg-12 pl-0 pr-0">
-                <video controls loop muted autoplay class="img-bg">
-                    <source src="Assets/influencer-search-header.mp4" type="video/mp4">
-                </video>
-                <img src="Assets/index-portfolio-influencer@2x.jpg" class="img-bg-touch-devices">
-                <div class="dev-badge">Dev</div>
-                <div class="portfolio-title">FindInfluencer.</div>
-                <btn class="portfolio-cta"><a href="/kuan-ting-pan-portfolio/project-findinfluencer">View Project
-                        <img src="Assets/arrow@2x.png" class="arrow-cta"></a>
-                </btn>
-            </div>
+        <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pr-0">
+            <a href="/project-mh.html">
+          <img src="Assets/h-3.png" class="img-sm" />
+          <div class="design-badge">DESIGN</div>
+          <div class="portfolio-title">Magic Hour</div>
+          <btn class="portfolio-cta"
+            >
+              View Project <img src="Assets/arrow@2x.png" class="arrow-cta"
+            /></a>
+          </btn>
+        </div>
+      </div>
+
+      <!-- Second Module -->
+
+      <div class="row design">
+        <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pl-0">
+          <a href="/project-sn.html">
+            <img src="Assets/h-4.png" class="img-sm" />
+            <div class="design-badge">DESIGN</div>
+            <div class="portfolio-title">Something Navy</div>
+            <btn class="portfolio-cta"
+              >View Project
+              <img src="Assets/arrow@2x.png" class="arrow-cta" />
+            </btn>
+          </a>
         </div>
 
-        <!-- Second Module -->
+        <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pr-0">
+          <a href="/project-ag.html">
+            <img src="Assets/h-5.png" class="img-sm" />
+            <div class="design-badge">DESIGN</div>
+            <div class="portfolio-title">Fear of God</div>
+            <btn class="portfolio-cta"
+              >View Project
+              <img src="Assets/arrow@2x.png" class="arrow-cta" />
+            </btn>
+          </a>
+        </div>
+      </div>
+      <div class="row dev">
+        <div class="col col-lg-12 pl-0 pr-0">
+          <video controls loop muted autoplay class="img-bg">
+            <source
+              src="Assets/influencer-search-header.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <img
+            src="Assets/index-portfolio-influencer@2x.jpg"
+            class="img-bg-touch-devices"
+          />
+          <div class="dev-badge">DEV</div>
+          <div class="portfolio-title">FindInfluencer.</div>
+          <btn class="portfolio-cta"
+            ><a href="/kuan-ting-pan-portfolio/project-findinfluencer"
+              >View Project <img src="Assets/arrow@2x.png" class="arrow-cta"
+            /></a>
+          </btn>
+        </div>
+      </div>
 
-        <div class="row">
-            <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pl-0">
-                <div class="dev-bg" style="background-color: #FFDEDE">
-                    <div class="dev-text">Weather Dashboard</div>
-                </div>
-                <div class="dev-badge">Dev</div>
-                <div class="portfolio-title">Weather Dashboard</div>
-                <btn class="portfolio-cta"><a href="/kuan-ting-pan-portfolio/project-weather-dashboard">View Project
-                        <img src="Assets/arrow@2x.png" class="arrow-cta"></a>
-                </btn>
-            </div>
-
-            <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pr-0">
-                <div class="dev-bg" style="background-color: #FFEE90">
-                    <div class="dev-text">Work Day Scheduler</div>
-                </div>
-                <div class="dev-badge">Dev</div>
-                <div class="portfolio-title">Work Day Scheduler</div>
-                <btn class="portfolio-cta"><a href="/kuan-ting-pan-portfolio/project-work-day-scheduler">View Project
-                        <img src="Assets/arrow@2x.png" class="arrow-cta"></a>
-                </btn>
-            </div>
+      <!-- Third Module -->
+      <div class="row design">
+        <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pl-0">
+          <a href="/project-ag.html">
+            <img src="Assets/h-6.png" class="img-sm" />
+            <div class="design-badge">DESIGN</div>
+            <div class="portfolio-title">Argent</div>
+            <btn class="portfolio-cta"
+              >View Project
+              <img src="Assets/arrow@2x.png" class="arrow-cta" />
+            </btn>
+          </a>
         </div>
 
+        <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pr-0">
+          <a href="#">
+            <img src="Assets/h-7.png" class="img-sm" />
+            <div class="design-badge">DESIGN</div>
+            <div class="portfolio-title">Saint Laurent</div>
+            <btn class="portfolio-cta"
+              >View Project
+              <img src="Assets/arrow@2x.png" class="arrow-cta" />
+            </btn>
+          </a>
+        </div>
+      </div>
 
 
-        <div class="row">
-            <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pl-0">
-                <div class="dev-bg" style="background-color: #CCF8AC">
-                    <div class="dev-text">Code Quiz</div>
-                </div>
-                <div class="dev-badge">Dev</div>
-                <div class="portfolio-title">Code Quiz</div>
-                <btn class="portfolio-cta"><a href="/kuan-ting-pan-portfolio/project-code-quiz">View Project
-                        <img src="Assets/arrow@2x.png" class="arrow-cta"></a>
-                </btn>
-            </div>
 
-            <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pr-0">
-                <div class="dev-bg" style="background-color: #F5F5F5">
-                    <div class="dev-text">Password Generator</div>
-                </div>
-                <div class="dev-badge">Dev</div>
-                <div class="portfolio-title">Password Generator</div>
-                <btn class="portfolio-cta"><a href="/kuan-ting-pan-portfolio/project-password-generator">View Project
-                        <img src="Assets/arrow@2x.png" class="arrow-cta"></a>
-                </btn>
-            </div>
+      <!-- Fourth Module -->
+      <div class="row dev">
+        <a href="/kuan-ting-pan-portfolio/project-weather-dashboard">
+        <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pl-0">
+          <div class="dev-bg" style="background-color: #ffdede">
+            <div class="dev-text">Weather Dashboard</div>
+          </div>
+          <div class="dev-badge">DEV</div>
+          <div class="portfolio-title">Weather Dashboard</div>
+          <btn class="portfolio-cta"
+            >View Project <img src="Assets/arrow@2x.png" class="arrow-cta"
+            />
+          </btn>
+        </a>
         </div>
 
+        <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pr-0">
+            <a href="/kuan-ting-pan-portfolio/project-work-day-scheduler">
+          <div class="dev-bg" style="background-color: #ffee90">
+            <div class="dev-text">Work Day Scheduler</div>
+          </div>
+          <div class="dev-badge">DEV</div>
+          <div class="portfolio-title">Work Day Scheduler</div>
+          <btn class="portfolio-cta"
+            >View Project <img src="Assets/arrow@2x.png" class="arrow-cta"
+            />
+          </btn>
+        </a>
+        </div>
+      </div>
 
-
-        <!-- Third Module -->
-
-
-        <div class="row">
-            <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pl-0">
-                <img src="Assets/portfolio-2.png" class="img-sm">
-                <div class="design-badge">Design</div>
-                <div class="portfolio-title">Audible for Business</div>
-                <btn class="portfolio-cta"><a href="#">View Project
-                        <img src="Assets/arrow@2x.png" class="arrow-cta"></a>
-                </btn>
-            </div>
-
-            <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pr-0">
-                <img src="Assets/Rectangle 3@2x.png" class="img-sm">
-                <div class="design-badge">Design</div>
-                <div class="portfolio-title">Equinox Hotels</div>
-                <btn class="portfolio-cta"><a href="#">View Project
-                        <img src="Assets/arrow@2x.png" class="arrow-cta"></a>
-                </btn>
-            </div>
+      <div class="row dev">
+        <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pl-0">
+            <a href="/kuan-ting-pan-portfolio/project-code-quiz">
+          <div class="dev-bg" style="background-color: #ccf8ac">
+            <div class="dev-text">Code Quiz</div>
+          </div>
+          <div class="dev-badge">DEV</div>
+          <div class="portfolio-title">Code Quiz</div>
+          <btn class="portfolio-cta"
+            >View Project <img src="Assets/arrow@2x.png" class="arrow-cta"
+            />
+          </btn>
+        </a>
         </div>
 
-
-        <!-- Forth Module -->
-
-        <div class="row">
-            <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pl-0">
-                <img src="Assets/Rectangle 4@2x.png" class="img-sm">
-                <div class="design-badge">Design</div>
-                <div class="portfolio-title">The Row</div>
-                <btn class="portfolio-cta"><a href="#">View Project
-                        <img src="Assets/arrow@2x.png" class="arrow-cta"></a>
-                </btn>
-            </div>
-
-            <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pr-0">
-                <img src="Assets/Rectangle 5@2x.png" class="img-sm">
-                <div class="design-badge">Design</div>
-                <div class="portfolio-title">3.1 Philip Lim</div>
-                <btn class="portfolio-cta"><a href="#">View Project
-                        <img src="Assets/arrow@2x.png" class="arrow-cta"></a>
-                </btn>
-            </div>
+        <div class="col col-lg-6 col-md-6 col-sm-12 col-12 pr-0">
+            <a href="/kuan-ting-pan-portfolio/project-password-generator">
+          <div class="dev-bg" style="background-color: #f5f5f5">
+            <div class="dev-text">Password Generator</div>
+          </div>
+          <div class="dev-badge">DEV</div>
+          <div class="portfolio-title">Password Generator</div>
+          <btn class="portfolio-cta"
+            >
+              View Project <img src="Assets/arrow@2x.png" class="arrow-cta"
+            />
+          </btn>
+        </a>
         </div>
-
+      </div>
+ 
     </div>
+    <!-- footer  -->
 
     <footer>
-        <a href="mailto:pankuanting@gmail.com">
-            <btn class="ft-itm-right p">Get in Touch
-                <img src="Assets/arrow@2x.png" class="arrow-cta">
-            </btn>
-        </a>
-        <a href="https://github.com/pankuanting102" target="_blank">
-            <btn class="ft-itm-right p" style="margin-right:30px">GitHub
-                <img src="Assets/arrow@2x.png" class="arrow-cta">
-            </btn>
-        </a>
-        <a href="http://linkedin.com/in/kuan-ting-pan-b5a5aa135" target="_blank">
-            <btn class="ft-itm-right p" style="margin-right:30px">LinkedIn
-                <img src="Assets/arrow@2x.png" class="arrow-cta">
-            </btn>
-        </a>
-        <div style="display:inline" class="p">© 2020 All Right Reserved</div>
+      <a href="mailto:pankuanting@gmail.com">
+        <btn class="ft-itm-right p"
+          >Get in Touch
+          <img src="Assets/arrow@2x.png" class="arrow-cta" />
+        </btn>
+      </a>
+      <a href="https://github.com/pankuanting102" target="_blank">
+        <btn class="ft-itm-right p" style="margin-right: 30px"
+          >GitHub
+          <img src="Assets/arrow@2x.png" class="arrow-cta" />
+        </btn>
+      </a>
+      <a href="http://linkedin.com/in/kuan-ting-pan-b5a5aa135" target="_blank">
+        <btn class="ft-itm-right p" style="margin-right: 30px"
+          >LinkedIn
+          <img src="Assets/arrow@2x.png" class="arrow-cta" />
+        </btn>
+      </a>
+      <div style="display: inline" class="p">© 2020 All Right Reserved</div>
     </footer>
-</body>
-
+    <script src="./script.js"></script>
+  </body>
 </html>
