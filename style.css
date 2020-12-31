@@ -11,6 +11,8 @@ img {
   height: auto;
   object-fit: fill;
 }
+
+.img-responsive
 .col-12 {
   padding: 0px;
 }
