@@ -467,6 +467,9 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 762px) {
+  video{
+    height: auto;
+  }
     .product-detail-text {
         font-size: 24px;
         padding-right: 5px;
