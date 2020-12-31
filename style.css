@@ -3,8 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
+#video{
+  -webkit-appearance: none
+}
+.video-background::-webkit-media-controls-panel,
+.video-background::-webkit-media-controls-start-playback-button {
+    display: none !important;
+}
 .col-12 {
   padding: 0px;
 }
