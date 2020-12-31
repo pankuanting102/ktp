@@ -488,10 +488,12 @@ textarea:focus {
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 125px;
+    height:auto;
   }
   .container{
       padding-left:30px;
       padding-right:30px;
+      height:auto;
   }
   .svg {
     width: 50px;
@@ -527,6 +529,7 @@ textarea:focus {
   .col {
     padding-right: 0;
     padding-left: 0;
+    height:auto;
   }
 
   footer {
