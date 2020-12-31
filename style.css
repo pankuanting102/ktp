@@ -475,6 +475,8 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 762px) {
+  .row > div > img { width: 100%; display: block; }
+  .img-responsive
   video::-webkit-media-controls-start-playback-button {
     z-index: 2147483647;
   }
