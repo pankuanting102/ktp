@@ -352,6 +352,10 @@ textarea:focus {
   letter-spacing: 0.04em;
 }
 
+.browser{
+  height:auto;
+}
+
 /* .badge-position-left {
     position: absolute;
     top:40px;
