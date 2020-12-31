@@ -7,7 +7,10 @@ video {
   object-fit: fill;
 }
 
-
+img {
+  height: auto;
+  object-fit: fill;
+}
 .col-12 {
   padding: 0px;
 }
@@ -354,6 +357,7 @@ textarea:focus {
 
 .browser{
   height:auto;
+  width: 100%;
 }
 
 /* .badge-position-left {
