@@ -112,6 +112,7 @@ form {
   padding-left: 40px;
   padding-right: 40px;
   width: auto;
+  margin-right: 15px;
 }
 
 .btn:hover {
@@ -452,6 +453,12 @@ textarea:focus {
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  .container {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   .row {
     margin-left: 0px;
     margin-right: 0px;
@@ -471,6 +478,10 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 762px) {
+  .asset-bottom {
+    margin-bottom:30px;
+  }
+
   .product-detail-text {
         font-size: 24px;
         padding-right: 5px;
@@ -493,6 +504,7 @@ textarea:focus {
       padding-left:30px;
       padding-right:30px;
       height:auto;
+      width: 100%
   }
   .svg {
     width: 50px;
@@ -551,10 +563,11 @@ textarea:focus {
     margin-left: 15px;
     margin-top: 120px;
   }
-  /* 
-    .btn{
+  
+    .btn-full{
         width: 100%;
-    } */
+        margin-bottom: 15px;
+    }
 
   .desktop-view {
     display: none;
